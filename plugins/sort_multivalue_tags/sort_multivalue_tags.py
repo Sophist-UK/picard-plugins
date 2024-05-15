@@ -23,7 +23,7 @@ Note: Some multi-value tags are excluded for the following reasons:
 <li>The sequence of one tag is linked to the sequence of another e.g. Label and Catalogue number.</li>
 </ol>
 '''
-PLUGIN_VERSION = "1.0"
+PLUGIN_VERSION = "1.1"
 PLUGIN_API_VERSIONS = ["0.15", "2.0"]
 PLUGIN_LICENSE = "GPL-2.0-or-later"
 PLUGIN_LICENSE_URL = "https://www.gnu.org/licenses/gpl-2.0.html"
@@ -40,6 +40,7 @@ _sort_multivalue_tags_exclude = (
     'label', 'catalognumber',
     'country', 'date',
     'releasetype',
+    'mood',
 )
 # Possible future enhancement:
 # Sort linked tags e.g. work so that the sequence in related tags e.g. workid retains the relationship between
